@@ -1,0 +1,135 @@
+.summodalp1 {
+  width: 100%;
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background: #00000050;
+  height: 981px;
+}
+.divp1 {
+  width: 40vw;
+}
+.pickupp1{
+  margin-left: 450px;
+}
+.modalBackgroundp1 {
+  width: 60vw;
+  background-color: #ffffff;
+}
+.summaryp1k {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 22px;
+}
+.summHeaderp1 {
+  background-color: #5861ae;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.crossbtn {
+  align-self: flex-end;
+  background-color: #5861ae;
+  border: none;
+  color: #ffffff;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+.storeInfo {
+  background-color: #f4f9ff;
+  display: flex;
+  justify-content: space-around;
+}
+.heading {
+  font-weight: 600;
+  color: #1b2734;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+.ch1 {
+  padding-top: 15px;
+  color: #1b2734;
+}
+p {
+  margin-left: 10px;
+}
+.statusdiv {
+  height: 10%;
+  background-color: #ffffff;
+  box-sizing: border-box;
+}
+.orderststus {
+  text-align: center;
+  padding-top: 50px;
+}
+.status {
+  font-weight: 600;
+  color: #5861ae;
+}
+.details {
+  font-weight: 600;
+  margin-left: 20px;
+}
+.tablem {
+  margin-left: 25px;
+}
+.italic {
+  font-style: italic;
+}
+.itemprice {
+  color: #5861ae;
+  font-weight: 600;
+}
+.totalStrip {
+  background-color: #5861ae;
+}
+.total {
+  font-size: 18px;
+  font-weight: bold;
+  margin-right: 20px;
+  color: #ffffff;
+  margin-left: 450px;
+}
+.totalprice {
+  font-size: 22px;
+  font-weight: bold;
+  color: #ffffff;
+}
+.address {
+  margin-left: 30px;
+}
+.addresscontainer {
+  width: 20%;
+  border: 1px solid #5861ae;
+  padding: 10px;
+}
+.cancelbtn {
+  background-color: #f41313;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  padding: 5px;
+  border-radius: 4px;
+}
+.btndiv {
+  padding-left: 680px;
+  padding-top: 150px;
+}
+#hidden {
+  visibility: hidden;
+}
+.orderdetail {
+  margin-left: 20px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.cloths {
+  font-style: italic;
+}
+.home {
+  font-weight: bold;
+}

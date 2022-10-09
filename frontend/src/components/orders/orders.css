@@ -1,0 +1,108 @@
+.containerm {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 25px;
+}
+.heading {
+  margin: 0;
+  padding: 0;
+  color: #1e2022;
+  font-size: 18px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+.searchbar {
+  position: relative;
+  display: inline-block;
+  align-self: flex-end;
+}
+
+.imagep1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin-left: 150px;
+  margin-top: 8px;
+}
+.input {
+  width: 50%;
+  height: 20px;
+  border-style: none;
+  border-bottom: 1px solid gray;
+  margin-left: 40px;
+}
+
+input:focus-visible {
+  outline: gray;
+}
+input:focus-visible + img {
+  visibility: hidden;
+}
+.btnp1 {
+  width: 107px;
+  height: 32px;
+  font-size: 14px;
+  color: #5861ae;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: #ffffff;
+  margin-right: 1px;
+}
+
+.table {
+  box-sizing: border-box;
+  margin-top: 26px;
+}
+
+.table-head-row {
+  color: #ffffff;
+  background-color: #383737;
+  font-size: 12px;
+  font-weight: 600;
+  height: 35px;
+  margin-bottom: 10px;
+}
+
+/* tr {
+  border: 1px solid #eaedf0;
+} */
+
+#hidden {
+  visibility: hidden;
+}
+.Not {
+  visibility: hidden;
+}
+.Cancel {
+  cursor: pointer;
+}
+.hidetable {
+  display: none;
+  visibility: hidden;
+}
+.hidebtn {
+  color: #ffffff;
+  background-color: #ffffff;
+  border-style: none;
+  width: 107px;
+  height: 32px;
+  cursor: none;
+}
+.extradiv {
+  margin-left: 500px;
+  margin-top: 200px;
+  height: 400px;
+  width: 400px;
+}
+.btnindiv {
+  width: 107px;
+  height: 32px;
+  font-size: 14px;
+  color: #5861ae;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  font-weight: 600;
+  background-color: #ffffff;
+  margin-left: 25px;
+}

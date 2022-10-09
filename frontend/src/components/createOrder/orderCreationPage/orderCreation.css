@@ -1,0 +1,7 @@
+.component{
+    display: flex;
+}
+.all-components{
+    display: flex;
+    flex-direction: column;
+}

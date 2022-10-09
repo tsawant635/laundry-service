@@ -1,0 +1,177 @@
+.register-containerp3 {
+    display: flex;
+    opacity: 1;
+  }
+  .register-box-1p3 {
+    width: 30vw;
+    display: flex;
+    justify-content: center;
+    padding-top: 160px;
+    padding-bottom: 50px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    align-items: center;
+    opacity: 1;
+  }
+  .laundry-text-registerp3 h1 {
+    text-align: left;
+    letter-spacing: 0px;
+    color: #5861ae;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+  }
+  .register-door-text {
+    text-align: left;
+    font: normal normal normal Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 18px;
+    margin-bottom: 100px;
+  }
+  .register-already {
+    text-align: left;
+    font: normal normal normal Avenir;
+    letter-spacing: 0.8px;
+    color: #565657;
+    text-transform: capitalize;
+    opacity: 1;
+    font-size: 15px;
+    margin-top: -10px;
+  }
+  .register-sign {
+    border: 2px solid #5861ae;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    margin-left: -2px;
+    padding: 5px 20px;
+    color: #5861ae;
+    background-color: white;
+  }
+  .register-box-2 {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #f8f9ff 0% 0% no-repeat padding-box;
+    opacity: 1;
+    padding-bottom: 32px;
+  }
+  .register-title {
+    text-align: left;
+    font: normal normal medium 32px/60px Avenir;
+    letter-spacing: 1.28px;
+    color: #5861ae;
+    text-transform: uppercase;
+    opacity: 1;
+    font-size: 32px;
+    margin-bottom: 16px;
+    padding: 0px 80px;
+  }
+  .form-container {
+    padding: 0rem 5rem;
+    box-sizing: border-box;
+    border-left: 2px solid #4552c1;
+  }
+  .form-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+  }
+  .form-box-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-right: 16px;
+  }
+  .form-box-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 16px;
+  }
+  .register-input-field {
+    text-align: left;
+    letter-spacing: 0.6px;
+    color: #77838f;
+    opacity: 1;
+    border: none;
+    border-bottom: 2px solid #989898;
+    width: 380px;
+    background-color: #f8f9ff;
+    font-size: 25px;
+    margin-bottom: 48px;
+    font: normal normal normal 17px/27px Open Sans;
+  }
+  .terms-condition-container {
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    text-decoration: underline;
+    font: normal normal normal 14px/20px Open Sans;
+    letter-spacing: 0.49px;
+    color: #5861ae;
+    opacity: 1;
+  }
+  .register-button-div {
+    display: flex;
+    justify-content: center;
+  }
+  .register-button1 {
+    background: #5861ae 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal bold 15px/20px Open Sans;
+    letter-spacing: 0.3px;
+    color: #ffffff;
+    padding: 8px 30px;
+    border-color: #5861ae;
+    margin-top: 10px;
+  }
+  
+  input.register-checkbox {
+    margin-right: 16px;
+    height: 16px;
+    width: 16px;
+  }
+  
+  .popup-label {
+    display: block;
+    position: absolute;
+    font-size: 12px;
+    color: #5861ae;
+    text-align: left;
+    font: normal normal normal 12px/15px Open Sans;
+    letter-spacing: 0.42px;
+    color: #5861AE;
+    transform: translate(0px, -90px);
+    transition: transform, opacity, 0.1s;
+    opacity: 1;
+  }
+  
+  .register-input-field:placeholder-shown ~ label {
+    opacity: 0; 
+    visibility: 0;
+    background-color: transparent;
+   
+  }
+  
+  .register-input-field:placeholder-shown ~ label::after {
+    /* transform: translateX(200%); */
+    transition: 2s;
+  }
+
+  .error{
+    margin-bottom: 10px;
+    margin-top: -20px;
+    color: red;
+    font-size: small;
+  }

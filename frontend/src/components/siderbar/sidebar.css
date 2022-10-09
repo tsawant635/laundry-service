@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.side {
+  display: flex;
+}
+.side-bar {
+  width: 57px;
+  height: 871px;
+  background-color: #5861ae;
+}
+.side-bar > #home-run {
+  margin-left: 18px;
+  margin-top: 80px;
+}
+.side-bar > #more {
+  margin-left: 18px;
+  margin-top: 30px;
+}
+.list {
+  width: 57px;
+  height: 50px;
+  background-color: #fff;
+  margin-top: 20px;
+}
+#list {
+  padding-left: 15px;
+  padding-top: 12px;
+  background-color: #fff;
+  width: 30px;
+  height: 30px;
+}

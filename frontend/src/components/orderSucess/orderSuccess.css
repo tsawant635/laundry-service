@@ -1,0 +1,69 @@
+.ordersuccess-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+  .orderS1{
+    width: 100%;
+    height: 1025px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background: #00000050;
+  }
+  .box {
+    box-sizing: border-box;
+   
+    width: 400px;
+    height: 460px;
+    padding: 60px 100px;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border-radius: 24px;
+    opacity: 1;
+  }
+  
+  .circleimg {
+    width: 130px;
+    height: 120px;
+    margin-left: 30px;
+  }
+  
+  .ordersuccess-text {
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    height: 200px;
+  }
+  
+  .successfull1 {
+    font-size: 26px;
+    font-weight: bold;
+    color: #0a1f44;
+    letter-spacing: 0.43px;
+    margin-bottom: 22px;
+  }
+  
+  .successfull2 {
+    margin-bottom: 30px;
+    text-align: center;
+    font: normal normal normal 17px/22px Open Sans;
+    letter-spacing: -0.41px;
+    color: #0a1f44;
+    opacity: 1;
+  }
+  
+  .ordersuccess-btn {
+    background: #5861AE 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    opacity: 1;
+    width: 180px;
+    height: 44px;
+    color: white;
+    cursor: pointer;
+    border-color: #5861AE;
+  }

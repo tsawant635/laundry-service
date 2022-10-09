@@ -1,0 +1,10 @@
+.orderPageConatiner {
+  display: flex;
+}
+.orderdiv {
+  width: 100%;
+  margin: 20px;
+}
+.adresshead {
+  margin-top: 20px;
+}

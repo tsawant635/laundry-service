@@ -1,0 +1,64 @@
+.cancelParentp1 {
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  box-sizing: border-box;
+  background: #00000050;
+  height: 981px;
+}
+
+.cancelcontainerp1 {
+  width: 415px;
+  height: 210px;
+  background: #ffffff;
+  position: absolute;
+  margin-top: 300px;
+  margin-left: 500px;
+  box-sizing: border-box;
+}
+.cancelHeaderp1 {
+  background-color: #5861ae;
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+}
+.summaryp1 {
+  height: 10px;
+  padding-top: 2px;
+  color: #ffffff;
+  font-weight: 100;
+}
+.crossbtn {
+  align-self: flex-end;
+  background-color: #5861ae;
+  border: none;
+  color: #ffffff;
+  padding-bottom: 10px;
+  padding-right: 30px;
+}
+.dangerimage {
+  margin-top: 48px;
+}
+.alertcontainer {
+  display: flex;
+  justify-content: center;
+}
+.warning {
+  margin-top: 40px;
+  margin-left: 20px;
+}
+.orderno {
+  margin-left: 35px;
+}
+.cancelbtnp {
+  margin-top: 10px;
+  margin-left: 185px;
+}
+.proceedbtn {
+  background-color: #5861ae;
+  border: 1px solid #5861ae;
+  border-radius: 4px;
+  color: #ffffff;
+  padding: 5px;
+}

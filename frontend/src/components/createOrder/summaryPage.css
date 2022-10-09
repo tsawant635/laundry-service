@@ -1,0 +1,214 @@
+
+.summaryp2{
+    width: 60vw;
+    /* height: 1000px; */
+    top: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+    background-color: #FFFFFF;
+}
+.overlayp2{
+    width: 40vw;
+}
+.overlayp{
+    width: 100%;
+    height: 1060px;
+    top: 0;
+    left: 0;
+    display: flex;
+    position: absolute;
+    background: #00000050;
+}
+.s-header{
+    display: flex;
+    background-color: #5861AE;
+  }
+  .s-header > p{
+      /* margin-left: auto; */
+      /* padding-right: 10px; */
+      padding-top: 20px;
+      padding-left: 20px;
+      color: #FFFFFF;
+      font-size: 22px;
+      font-weight: 600;
+  }
+  .s-header > button{
+      
+      margin: 20px;
+      margin-left: auto;
+      /* padding: 0px 10px 5px 10px; */
+      color: #FFFFFF;
+      font-size: 22px;
+      font-weight: 600;
+      background-color: #5861AE;
+      border: 0px;
+  }
+  .s-location{
+      display: flex;
+      background-color: #F4F9FF;
+      padding-bottom: 10px;
+  }
+  .options{
+      margin-left: 10px;
+      margin-top: 20px;
+      margin-bottom: 10px;
+      width: 100px;
+      border-top: none;
+      border-left: none;
+      border-right: none;
+      border-color: #3E3F40;
+      background-color: #F4F9FF;
+  }
+  .s-store{
+      padding-left: 150px;
+  }
+  .s-store > p{
+      margin-left: 50px;
+      margin-top: 10px;
+  }
+  
+  .s-phone{
+      padding-left: 120px;
+  }
+  .s-phone > p{
+      margin-left: 50px;
+      margin-top: 10px;
+  }
+  
+  .s-data{
+      width: 300px;
+      height: 100px;
+  }
+  .order-details{
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+  .submit-data{
+      background-color: #FFFFFF;
+  }
+  .summary-table{
+      display: flex;
+      border-bottom: 1px solid #3E3F40;
+  }
+  .items-name{
+      margin-left: 20px;
+      margin-top: 20px;
+      width: 200px;
+      height: auto;
+      padding-bottom: 10px;
+  }
+  .washes-names{
+      display: flex;
+      margin-left: 50px;
+      margin-top: 20px;
+      width: 200px;
+      height: auto;
+  }
+  .t-price{
+      display: flex;
+      margin-left: 40px;
+      margin-top: 20px;
+      width: 200px;
+      height: auto;
+  }
+  .t-amount{
+      font-size: 30px;
+      font-weight: 600;
+      margin-left: 10px;
+      color: #5861AE;
+  }
+  .subTotal{
+      display: flex;
+      font-size: 16px;
+      color: #1B2734;
+      width: fit-content;
+      height: fit-content;
+      margin-left: auto;
+      margin-top: 20px;
+      margin-right: 185px;
+      border-bottom: 1px solid #3E3F40;
+      padding-bottom: 10px;
+  }
+  
+  .subTotal > p{
+      margin-top: 20px;
+  }
+  .subTotal > #sub{
+      margin-left: 20px;
+      margin-top: 20px;
+  }
+  .pickup{
+      display: flex;
+      font-size: 16px;
+      color: #1B2734;
+      width: fit-content;
+      height: fit-content;
+      margin-left: auto;
+      margin-right: 180px;
+      border-bottom: 1px solid #3E3F40;
+  }
+  .pickup > #charge{
+      padding-left: 20px;
+  }
+  .totalp2{
+      display: flex;
+      font-size: 16px;
+      color: #1B2734;
+      height: fit-content;
+      margin: 20px 20px 0 30px;
+      color: #F4F9FF;
+      background-color: #5861AE;
+  }
+  .totalp2 > p{
+      padding-left: 470px;
+      padding-top: 15px;
+      padding-bottom: 10px;
+      font-size: 18px;
+      font-weight: bold;
+  }
+  .totalp2 > #total-amount{
+      margin-left: 20px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      font-size: 22px;
+      font-weight: bold;
+  }
+  .division{
+      width: 98%;
+      margin-left: 20px;
+      margin-top: 20px;
+      border-bottom: 1px solid #3E3F40;
+  }
+  #address{
+      margin-top: 20px;
+      margin-left: 20px;
+  }
+  .pickup{
+   margin-top: 20px;   
+   padding-bottom: 10px;
+  }
+  .user-address{
+      margin-top: 40px;
+      border: 1px solid #3E3F40;
+      width: 300px;
+      margin-left: 20px;
+      padding: 10px 0 10px 20px;
+  }
+  .cnfrm{
+      height: 100px;
+      margin-top: 250px;
+      background-color: #00000015;
+  }
+  .confirm-btn{
+      margin-top: 30px;
+      margin-left: 700px;
+      width: 80px;
+      height: 40px;
+      font-size: 16px;
+      font-weight: 600;
+      background-color: #5861AE;
+      border-color: #5861AE;
+      color: #FFFFFF;
+      border-radius: 4px;
+  }
